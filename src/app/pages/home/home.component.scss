@@ -1,0 +1,36 @@
+ $main-content-background : hsl(217, 19%, 38%);
+ $content-background : hsl(217, 19%, 24%);
+ $Dark-grey : hsl(218, 23%, 16%);
+ $font-neon-color :hsl(150, 100%, 66%);
+ $my-Font-Size : 28px;
+ $paragragh-font-color :  hsl(193, 38%, 86%);
+ 
+.content{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: $content-background;
+    .main{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: $main-content-background;
+        width: 30rem;
+        height: 15rem;
+        border-radius: 20px;
+
+        h6{
+            color: $font-neon-color;
+            text-transform: uppercase;
+            font-family: 'Barlow Condensed', sans-serif;
+            letter-spacing: 2px;
+        }
+        p{
+            font-size: $my-Font-Size;
+            color: $paragragh-font-color;
+            font-weight: 800;
+            font-family: 'Manrope', sans-serif;
+        }
+    }
+}
